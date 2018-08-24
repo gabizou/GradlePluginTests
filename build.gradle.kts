@@ -1,5 +1,5 @@
-import org.spongepowered.gradle.sort.SortClassGroup
-import org.spongepowered.gradle.sort.SortFieldsExtension
+import org.spongepowered.gradle.sort.*
+
 
 buildscript {
     repositories {
@@ -19,6 +19,10 @@ dependencies {
 }
 
 configure<SortFieldsExtension> {
+
+    group.create("com.gabizou.sorttest") {
+        files = mutableListOf("DerpSort")
+    }
 
 }
 //

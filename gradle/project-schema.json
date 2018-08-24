@@ -1,0 +1,120 @@
+{
+    ":": {
+        "conventions": [
+            {
+                "type": "org.gradle.api.plugins.BasePluginConvention",
+                "target": "org.gradle.api.Project",
+                "name": "base"
+            },
+            {
+                "type": "org.gradle.api.plugins.JavaPluginConvention",
+                "target": "org.gradle.api.Project",
+                "name": "java"
+            }
+        ],
+        "configurations": [
+            "annotationProcessor",
+            "apiElements",
+            "archives",
+            "compile",
+            "compileClasspath",
+            "compileOnly",
+            "default",
+            "implementation",
+            "runtime",
+            "runtimeClasspath",
+            "runtimeElements",
+            "runtimeOnly",
+            "testAnnotationProcessor",
+            "testCompile",
+            "testCompileClasspath",
+            "testCompileOnly",
+            "testImplementation",
+            "testRuntime",
+            "testRuntimeClasspath",
+            "testRuntimeOnly"
+        ],
+        "extensions": [
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.gradle.api.Project",
+                "name": "ext"
+            },
+            {
+                "type": "org.spongepowered.gradle.plugin.SpongePluginExtension",
+                "target": "org.gradle.api.Project",
+                "name": "sponge"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.spongepowered.gradle.plugin.SpongePluginExtension",
+                "name": "ext"
+            },
+            {
+                "type": "org.gradle.api.internal.plugins.DefaultArtifactPublicationSet",
+                "target": "org.gradle.api.Project",
+                "name": "defaultArtifacts"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.gradle.api.internal.plugins.DefaultArtifactPublicationSet",
+                "name": "ext"
+            },
+            {
+                "type": "org.gradle.api.reporting.ReportingExtension",
+                "target": "org.gradle.api.Project",
+                "name": "reporting"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.gradle.api.reporting.ReportingExtension",
+                "name": "ext"
+            },
+            {
+                "type": "org.gradle.plugins.ide.eclipse.model.EclipseModel",
+                "target": "org.gradle.api.Project",
+                "name": "eclipse"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.gradle.plugins.ide.eclipse.model.EclipseModel",
+                "name": "ext"
+            },
+            {
+                "type": "org.gradle.plugins.ide.idea.model.IdeaModel",
+                "target": "org.gradle.api.Project",
+                "name": "idea"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.gradle.plugins.ide.idea.model.IdeaModel",
+                "name": "ext"
+            },
+            {
+                "type": "org.spongepowered.gradle.sort.SortFieldsExtension",
+                "target": "org.gradle.api.Project",
+                "name": "sortFields"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.spongepowered.gradle.sort.SortFieldsExtension",
+                "name": "ext"
+            },
+            {
+                "type": "org.gradle.api.NamedDomainObjectContainer<org.spongepowered.gradle.sort.SortGroup>",
+                "target": "org.gradle.api.Project",
+                "name": "sortGroups"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.gradle.api.NamedDomainObjectContainer<org.spongepowered.gradle.sort.SortGroup>",
+                "name": "ext"
+            },
+            {
+                "type": "org.gradle.api.plugins.ExtraPropertiesExtension",
+                "target": "org.gradle.api.tasks.SourceSet",
+                "name": "ext"
+            }
+        ]
+    }
+}
