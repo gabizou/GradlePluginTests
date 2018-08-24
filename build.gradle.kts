@@ -20,7 +20,7 @@ dependencies {
 
 configure<SortFieldsExtension> {
 
-    group.create("com.gabizou.sorttest") {
+    group.create("com.gabizou.sorttest.derp") {
         files = mutableListOf("DerpSort")
     }
 

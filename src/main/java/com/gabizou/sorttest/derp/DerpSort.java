@@ -19,4 +19,17 @@ public class DerpSort {
     public static final String ZYZ = "this is the last";
 
     // SORTFIELDS:OFF
+
+    public DerpSort() {
+        // some stuff
+    }
+
+    public static void someMethod() {
+        // oh god why
+        /*
+        why would you do this
+
+        sort of thing
+         */
+    }
 }
